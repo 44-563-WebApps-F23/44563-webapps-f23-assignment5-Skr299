@@ -18,22 +18,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<h1>Welcome to Advaced html Page</h1>
+<div class="container">
+    <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light bg-info">
 
-<body>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Dropdown
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="basic.html" target="_blank">BASIC PAGE</a>
-            <a class="dropdown-item" href="advanced.html" target="_blank">ADVANCED PAGE</a>
-        </div>
+            <a class="navbar-brand text-white" href="cities.html" target="_blank" style="padding-left: 10px;">A Few Cities</a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+    
+                <ul class="navbar-nav mr-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="basic.html" target="_blank">Basic</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="advanced.html" target="_blank">Advanced</a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+        </nav>  
+        <h1>Welcome to Advaced html Page</h1> 
     </div>
-    <div class="navbar">
-        <a href="cities.html" target="_blank">Click here redirect to cities page</a>
-    </div>
-</body>
+</div>
 
 </html>

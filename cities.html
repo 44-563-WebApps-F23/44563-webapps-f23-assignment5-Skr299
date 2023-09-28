@@ -21,35 +21,40 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-md navbar-light bg-info">
 
-                <a class="navbar-brand text-white" href="cities.html" target="_blank" style="padding-left: 10px;">A Few Cities</a>
-        
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarNav">
-        
-                    <ul class="navbar-nav mr-auto">
-        
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="basic.html" target="_blank">Basic</a>
-                        </li>
-        
-                        <li class="nav-item">
-                            <a class="nav-link active text-white" href="advanced.html" target="_blank">Advanced</a>
-                        </li>
-        
-                    </ul>
-        
-                </div>
-            </nav>   
+    <div class="container-fluid bg-info">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md navbar-light">
+    
+                    <a class="navbar-brand text-white" href="cities.html" target="_blank" style="padding-left: 10px;">A Few Cities</a>
+            
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="navbarNav">
+            
+                        <ul class="navbar-nav mr-auto">
+            
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="basic.html" target="_blank">Basic</a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="advanced.html" target="_blank">Advanced</a>
+                            </li>
+            
+                        </ul>
+            
+                    </div>
+                </nav>   
+            </div>
         </div>
     </div>
+
+    
     
 
     <div class="container">
@@ -84,9 +89,22 @@
             will the letter row wrap to the following row and continue to horizontally contract.
             This is a result of the responsive nature of the Bootstrap grid framework</p>
     </div>
-
+    <div class="container">
+        <h4 style="text-align: center;" ><b>Responsive Images</b></h4>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="CitiesImages/SINGAPORE.jpg" alt="SINGAPORE" width="350" height="250" class="responsive">
+            </div>
+            <div class="col-md-4">
+                <img src="CitiesImages/EGYPT.jpg" alt="EGYPT" width="350" height="250" class="responsive">
+            </div>
+            <div class="col-md-4">
+                <img src="CitiesImages/AUSTRALIA.jpg" alt="AUSTRALIA" width="350" height="250" class="responsive">
+            </div>
+        </div>
+      </div>
     <div class="container mt-4 mb-2">
-        <h3 style="text-align:center;"><b>Thumbnail </b>& Images</h3>
+        <h3 style="text-align:center;"><b>Thumbnail Images</b></h3>
         <div class="row">
             <div class="col-md-4">
                 <img src="CitiesImages/SINGAPORE.jpg" alt="SINGAPORE" class="img-thumbnail">
@@ -101,7 +119,7 @@
     </div>
     <div class="container">
         <h3 style="text-align:center;"><b>Table </b>& Style</h3>
-        <caption>Table of Letters, Cities, Rivers, and Trees</caption>
+        <caption><b>Table of Letters, Cities, Rivers, and Trees</b></caption>
         <table class="table table-striped table-info">
             <thead class="table-dark">
                 <tr>
@@ -151,11 +169,22 @@
             </tbody>
         </table>
     </div>
-
+    <div class="container">
+        <div class="container mt-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-info mb-2">
+                <a class="navbar-brand" style="text-align: center;">One button for each of the six letters</a>
+            </nav>
+        <button type="button" class="btn btn-success">S</button>
+        <button type="button" class="btn btn-danger">E</button>
+        <button type="button" class="btn btn-warning">E</button>
+        <button type="button" class="btn btn-danger">L</button>
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-primary">M</button>
+      </div>
     
     <div class="container mt-5">
         <nav class="navbar navbar-expand-lg navbar-light bg-info mb-2">
-            <a class="navbar-brand" href="#">ADDED BUTTONS</a>
+            <a class="navbar-brand" style="text-align: center;">Three Button Groups </a>
         </nav>
         <div class="btn-toolbar" role="toolbar" aria-label="Button Toolbar">
 
@@ -169,7 +198,7 @@
                 <button type="button" class="btn btn-lg btn-warning">M</button>
             </div>
             <div class="btn-group" role="group" aria-label="Danger Buttons">
-                <button type="button" class="btn btn-lg btn-danger">K</button>
+                <button type="button" class="btn btn-lg btn-danger">E</button>
             </div>
         </div>
     </div>
@@ -258,9 +287,9 @@
                         <h5 class="card-title">AGRA</h5>
                         <p class="card-text">Agra is one of the most populous cities in Uttar Pradesh,
                             and the 24th most populous city in India.
-                            Agra is a major tourist destination because of its many Mughal-era buildings,
-                            most notably the Taj Mahal, Agra Fort and Fatehpur Sikri,
-                            all three of which are UNESCO World Heritage Sites.
+                            Agra is a major tourist destination due to its many Mughal-era buildings,
+                            mostly the Taj Mahal, Agra Fort and Fatehpur Sikri,
+                            all three of which are World Heritage Sites.
                         </p>
                         <a href="https://agra.nic.in/" target="_blank" class="btn btn-primary">For More details click
                             here</a>
